@@ -1,0 +1,4 @@
+configurationset:
+  - configuration:
+      name: curl_import_config
+      authentication_bcde369234: charlton::stepzen.net+1000::d5f6f7043ddd578ebd71fd2d2f378f9a6f7f84b3b07d096a507c14cb3dc4c3d7
