@@ -1,4 +1,4 @@
-export const fetchNews = async (
+const fetchNews = async (
 	category?: Category | string,
 	keywords?: string,
 	isDynamic?: boolean
@@ -8,3 +8,5 @@ export const fetchNews = async (
 	// Sort function by images vs not images present
 	// return res
 };
+
+export default fetchNews;

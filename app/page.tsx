@@ -1,5 +1,5 @@
 import { categories } from "@/constants";
-import { fetchNews } from "@/lib/fetchNews";
+import fetchNews from "@/lib/fetchNews";
 
 const Homepage = async () => {
 	// fetch the news data
