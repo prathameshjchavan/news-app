@@ -8,8 +8,6 @@ const Homepage = async () => {
 	const news: NewsResponse =
 		response || (await fetchNews(categories.join(",")));
 
-	console.log(news);
-
 	return (
 		<div>
 			<NewsList news={news} />
